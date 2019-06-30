@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ObraSocial.SignUpObraSocialActivity"
+        android:background="@drawable/back5">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true">
+
+        <Button android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/btnround"
+                android:text="Agregar Logo"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:id="@+id/btnSubirFotoMedico"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:id="@+id/CircleImageViewMedico"
+                android:layout_marginTop="-100dp"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/colorPrimary"
+        />
+
+
+
+        <EditText
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Nombre de la obra social"
+                android:singleLine="true"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/nombrebox"/>
+
+
+        <EditText
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/ic_user"
+                android:singleLine="true"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/emailbox" android:drawableLeft="@drawable/ic_user"/>
+
+        <EditText
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Password"
+                android:singleLine="true"
+                android:drawableStart="@drawable/ic_password"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/passwordbox" android:drawableLeft="@drawable/ic_password"/>
+
+
+
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnround"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textSize="21sp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnSignUpObraSocial"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

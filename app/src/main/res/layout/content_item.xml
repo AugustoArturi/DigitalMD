@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    app:cardCornerRadius="10dp"
+                                    android:layout_gravity="center">
+
+
+
+    <ImageView android:layout_width="match_parent" android:layout_height="500dp"
+               android:src="@drawable/trama" android:scaleType="fitXY"
+               android:id="@+id/iv_photo" android:adjustViewBounds="true"/>
+
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:padding="10dp" android:text="Epigrafe"
+              android:background="@color/colorAccent"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:layout_marginTop="500dp"
+              android:id="@+id/tv_name"/>
+
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:layout_marginTop="550dp" android:gravity="center">
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/ic_add_alert_black_24dp"
+                android:id="@+id/btnIrAlMedico"
+                android:tooltipText="Recomendar ir pronto al dermatologo"
+                android:background="@drawable/btnround"
+                android:padding="10dp"
+                android:layout_margin="10dp" tools:ignore="VectorDrawableCompat"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/ic_person_add_black_24dp"
+                android:id="@+id/btnConsultarConOtro"
+                android:tooltipText="Recomendar segunda opinion"
+                android:background="@drawable/btnround"
+                android:padding="10dp"
+                android:layout_margin="10dp" tools:ignore="VectorDrawableCompat"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/ic_mode_edit_black_24dp"
+                android:id="@+id/btnComentario"
+                android:tooltipText="Agregar comentario"
+                android:background="@drawable/btnround"
+                android:padding="10dp"
+                android:layout_margin="10dp" tools:ignore="VectorDrawableCompat"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/ic_done_black_24dp"
+                android:id="@+id/btnOk"
+                android:tooltipText="Marcar como lunar benigno"
+                android:background="@drawable/btnround"
+                android:padding="10dp"
+                android:layout_margin="10dp" tools:ignore="VectorDrawableCompat"/>
+    </TableRow>
+
+
+</RelativeLayout>

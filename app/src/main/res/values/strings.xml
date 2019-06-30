@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DigitalMD</string>
+    <string name="title_activity_dermatologia">DermatologiaActivity</string>
+    <string name="title_activity_hacer_receta">HacerRecetaActivity</string>
+</resources>

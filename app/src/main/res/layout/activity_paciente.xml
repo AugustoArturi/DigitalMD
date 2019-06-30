@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Paciente.PacienteActivity"
+        android:background="@drawable/back4">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"
+                android:foregroundGravity="center"
+                android:id="@+id/CircleImageView"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/colorBlack"
+
+        />
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"
+                android:foregroundGravity="center"
+                android:id="@+id/CircleImageView2"
+                android:layout_marginTop="-400dp"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/colorBlack"
+
+        />
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/upload"
+
+                android:id="@+id/btnSubirFoto"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/camera"
+                android:layout_marginStart="250dp"
+
+                android:layout_marginTop="-30dp"
+                android:id="@+id/btnSacarFoto"/>
+
+        <EditText
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Ingresa un comentario de tu consulta"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:id="@+id/etComentario"/>
+
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnroundred"
+                android:text="Confirmar consulta"
+                android:textAllCaps="false"
+                android:textSize="21sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp" android:id="@+id/btnCConfirmarConsulta"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

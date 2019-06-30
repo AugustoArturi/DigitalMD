@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "476201578674",
+    "firebase_url": "https://digital-md.firebaseio.com",
+    "project_id": "digital-md",
+    "storage_bucket": "digital-md.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476201578674:android:6beef74e9e1cee42",
+        "android_client_info": {
+          "package_name": "com.fiuba.digitalmd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476201578674-h561pgehs3m72bfp56h47emm2c4uu59m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fiuba.digitalmd",
+            "certificate_hash": "09a8d1dcf7a73c24fc6836f7d359c21f99277ce7"
+          }
+        },
+        {
+          "client_id": "476201578674-b9utapui90gulhdcct4ugu1bvhp9s720.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA89Vr97WLAzcwzs6pmjtB4J2JoYK0qmIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476201578674-b9utapui90gulhdcct4ugu1bvhp9s720.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
